@@ -71,3 +71,19 @@ p{
     font-size: 2.5rem;
     color: white;
 }
+
+@media screen and (max-width: 480px) {
+    .formChat{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+    input{
+    height: 2rem;
+    width: 5.8rem;
+    }
+    .containerText{
+    width: 26rem;
+    
+}
+}
